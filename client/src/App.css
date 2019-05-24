@@ -1,0 +1,51 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.root {
+  text-align: center;
+}
+
+.header {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 500px;
+  margin: auto;
+}
+
+.dayContainer {
+  width: 700px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.cell {
+  width: 100px;
+  border: 1px solid #8B8989;
+  padding: 10px;
+  text-align: left;
+}
+
+.day {
+  height: 110px;
+}
+
+.notCurrentMonth {
+  background: #E6E4E4;
+  color: gray;
+}
+
+.title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
